@@ -2,17 +2,17 @@ pipeline {
     agent any 
     stages {
         stage('Build') { 
-            steps {
+            steps { A for build code 
                 // 
             }
         }
         stage('Test') { 
-            steps {
+            steps { A for test code
                 // 
             }
         }
         stage('Deploy') { 
-            steps {
+            steps { A for deploy code
                 // 
             }
         }
